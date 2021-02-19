@@ -17,7 +17,7 @@ type GameLog struct {
 
 const (
 	ATTR_ArcadeID   = "ArcadeID"
-	ATTR_GameType   = "GameType"
+	ATTR_GAMETYPE   = "GameType"
 	ATTR_InsertCoin = "InsertCoin"
 	ATTR_WinCoin    = "WinCoin"
 	ATTR_ChanceL    = "ChanceL"
