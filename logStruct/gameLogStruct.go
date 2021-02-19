@@ -1,4 +1,4 @@
-package logStruct
+package LogStruct
 
 import (
 	"time"
