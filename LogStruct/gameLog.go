@@ -15,6 +15,17 @@ type GameLog struct {
 	Time       int
 }
 
+const (
+	ATTR_ArcadeID   = "ArcadeID"
+	ATTR_GameType   = "GameType"
+	ATTR_InsertCoin = "InsertCoin"
+	ATTR_WinCoin    = "WinCoin"
+	ATTR_ChanceL    = "ChanceL"
+	ATTR_ChanceR    = "ChanceR"
+	ATTR_ChestAward = "ChestAward"
+	ATTR_Time       = "Time"
+)
+
 func NewLog(arcadeID int, insertCoin int, winCoin int, chanceL int, chanceR int, chestAward int, gameType int) *GameLog {
 
 	timeSecond := time.Now().Unix()
